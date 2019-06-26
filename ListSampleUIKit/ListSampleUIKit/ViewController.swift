@@ -47,6 +47,8 @@ class ViewController: UIViewController {
       tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
       ])
     
+    navigationItem.title = "UIKit"
+    
     navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                         target: self,
                                                         action: #selector(didTapAddButton))
